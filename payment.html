@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pembayaran Digital - DANA & GoPay</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+            background-color: #f5f5f5;
+        }
+        .payment-method {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 15px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .dana {
+            border: 2px solid #00a3e0;
+        }
+        .gopay {
+            border: 2px solid #00aa13;
+        }
+        h1 {
+            color: #333;
+        }
+        h2 {
+            margin-top: 0;
+        }
+        .phone-number {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .qr-placeholder {
+            width: 150px;
+            height: 150px;
+            background: #eee;
+            margin: 10px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px dashed #999;
+        }
+        .instructions {
+            font-size: 14px;
+            color: #555;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pembayaran Digital</h1>
+    
+    <div class="payment-method dana">
+        <h2 style="color: #00a3e0;">DANA</h2>
+        <div class="phone-number">083848953659</div>
+        <div class="qr-placeholder">[QR Code DANA]</div>
+        <p>Scan QR code atau transfer ke nomor DANA di atas</p>
+    </div>
+    
+    <div class="payment-method gopay">
+        <h2 style="color: #00aa13;">GoPay</h2>
+        <div class="phone-number">081265162455</div>
+        <div class="qr-placeholder">[QR Code GoPay]</div>
+        <p>Scan QR code atau transfer ke nomor GoPay di atas</p>
+    </div>
+    
+    <div class="instructions">
+        <p><strong>Instruksi Pembayaran:</strong></p>
+        <ol style="text-align: left; padding-left: 20px;">
+            <li>Buka aplikasi DANA/GoPay di ponsel Anda</li>
+            <li>Pilih "Kirim Uang" atau "Transfer"</li>
+            <li>Masukkan nomor tujuan di atas</li>
+            <li>Masukkan nominal pembayaran</li>
+            <li>Konfirmasi dan selesaikan transaksi</li>
+        </ol>
+        <p>Setelah membayar, harap simpan bukti transfer.</p>
+    </div>
+</body>
+</html>
